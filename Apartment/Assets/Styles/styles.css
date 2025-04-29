@@ -1,0 +1,34 @@
+@import "navbar.css";
+@import "container.css";
+@import "content.css";
+@import "buttons.css";
+@import "footer.css";
+
+* {
+    margin: 0  ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: sans-serif;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    background: #2a4630ce;
+    width: 2px;
+}::-webkit-scrollbar-thumb {
+    background: #74f18fce;
+}
+
+
+section {
+    scroll-snap-align: start;
+    scroll-snap-stop: start;
+}
+
+p {
+    color: beige;
+}

@@ -1,0 +1,21 @@
+.contain-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+    background: linear-gradient(#31484d73, #2a4630ce), url(/Assets/Images/background.jpg);
+    /* background-position: center; */
+}
+
+.contain-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+    background: linear-gradient(#1d1e1f73, #303331ce), url(/Assets/Images/dark-back.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
